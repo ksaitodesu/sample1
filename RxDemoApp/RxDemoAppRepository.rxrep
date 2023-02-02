@@ -1,0 +1,546 @@
+﻿<repository
+id="c4822739-f98d-41b1-b030-a9dcd57ff2e2"
+name="RxDemoAppRepository">
+	<codegen
+	classname="RxDemoAppRepository"
+	namespace="RxDemoApp">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="cae2f1d7-af6a-4620-bf21-798e3fa036bb"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="2a0d33de-7233-4fd3-9b0f-80df777abcc5"
+		isrooted="True"
+		name="RxMainFrame"
+		refpath="/form[@automationid='RxMainFrame']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="5496851c-b600-47da-8993-786b59670f5d"
+			name="TestDatabase"
+			refimgid="16ecbe59-7f6f-4daa-ac1f-94e03a504a6c"
+			refpath="/form[@automationid='RxMainFrame']/tabpagelist/tabpage[@accessiblename='Test database']"
+			robustPath="/form[@automationid='RxMainFrame']/?/?/tabpage[@accessiblename='Test database']"
+			searchtimeout="30000ms">
+				/form[@automationid='RxMainFrame']/?/?/tabpage[@accessiblename='Test database']
+			</item>
+			<folder
+			addcaps="tabpage,control,nativewindow"
+			capname="tabpage"
+			id="5a36e37c-8441-448c-9b3d-349c70aab2fc"
+			isrooted="True"
+			name="RxTabStandard1"
+			refpath="/form[@automationid='RxMainFrame']/tabpagelist[@automationid='RxTabcontrol']/tabpage[@title='Test database' and @automationid='RxTabStandard']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="tabpage,control,nativewindow"
+				capname="tabpage"
+				id="9436a092-0b3a-4855-9772-83c2ce61456c"
+				name="RxTabStandard"
+				refimgid="50bc4499-1b98-4d95-93a5-5ae66cd5d931"
+				refpath="/form[@automationid='RxMainFrame']/tabpagelist/tabpage[@title='Test database' and @automationid='RxTabStandard']"
+				robustPath="/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabStandard']"
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabStandard']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="8b73b024-12b8-4e39-a2b1-b478d0e53383"
+				name="Button閉じる"
+				refimgid="7792e531-24a6-4d1d-b7ab-c157aa8f5693"
+				refpath="/form[@automationid='RxMainFrame']/tabpagelist/tabpage[@title='Test database' and @automationid='RxTabStandard']/combobox/button[@accessiblename='閉じる']"
+				robustPath="/form[@automationid='RxMainFrame']//button[@accessiblekeyboardshortcut='Alt+下矢印キー']"
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabStandard']/?/?/button[@accessiblename='閉じる']
+				</item>
+				<item
+				addcaps="radiobutton,control,nativewindow"
+				capname="radiobutton"
+				id="2652cbc0-d3e0-4e25-9801-e2946d5a75f9"
+				name="RdbMale"
+				refimgid="8ebb53c1-061a-453f-9101-2dff7b6b25e7"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabStandard']/?/?/radiobutton[@text=$Gender]
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="f1cb316d-4f16-4289-b291-fbb11968f312"
+				name="FirstName"
+				refimgid="f5e80c18-fd76-452c-845c-b1905f2c62ff"
+				refpath="/form[@automationid='RxMainFrame']/tabpagelist/tabpage[@title='Test database' and @automationid='RxTabStandard']/text[@automationid='txtFirstName']/text[@accessiblename='First name']"
+				robustPath="/form[@automationid='RxMainFrame']//text[@accessiblename='First name']"
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabStandard']/?/?/text[@accessiblename='First name']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="5594516d-da98-4729-8ecf-59e6412094cf"
+				name="LastName"
+				refimgid="f1c43bcd-92d5-495e-80a5-a5ba1f863fb8"
+				refpath="/form[@automationid='RxMainFrame']/tabpagelist/tabpage[@title='Test database' and @automationid='RxTabStandard']/text[@automationid='txtLastName']/text[@accessiblename='Last name']"
+				robustPath="/form[@automationid='RxMainFrame']//text[@accessiblename='Last name']"
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabStandard']/?/?/text[@accessiblename='Last name']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="6407c34a-d5ac-43b5-a7db-15af5b187fca"
+				name="UpDownEdit"
+				refimgid="27615b6d-440d-4dd4-8c35-0fba131b46ea"
+				refpath="/form[@automationid='RxMainFrame']/tabpagelist/tabpage[@title='Test database' and @automationid='RxTabStandard']/container[@caption='0']/text[@automationid='txtAge']"
+				robustPath="/form[@automationid='RxMainFrame']//text[@automationid='txtAge']"
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabStandard']/?/?/text[@automationid='txtAge']
+				</item>
+				<item
+				addcaps="button,control,nativewindow"
+				capname="button"
+				id="ab3168fb-c1dc-4f5f-a6f5-926679ceba9a"
+				name="BtnAddPerson"
+				refimgid="52faaec4-a408-4aaa-8c8e-1295f9b7374b"
+				refpath="/form[@automationid='RxMainFrame']/tabpagelist/tabpage[@title='Test database' and @automationid='RxTabStandard']/button[@text='Add entry']"
+				robustPath="/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabStandard']"
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabStandard']/button[@text='Add entry']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="73276401-2806-431d-a70e-4016489086ce"
+				name="LblNumberOfPersonsNumber"
+				refimgid="87ba3ea9-aebb-4801-bbb5-ec7db492e077"
+				refpath="/form[@automationid='RxMainFrame']/tabpagelist[@automationid='RxTabcontrol']/tabpage[@title='Test database' and @automationid='RxTabStandard']/text[@automationid='lblNumberOfPersonsNumber']"
+				robustPath="/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabStandard']"
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabStandard']/text[@automationid='lblNumberOfPersonsNumber']
+				</item>
+				<item
+				addcaps="listitem,accessible"
+				capname="listitem"
+				id="52c75f5a-c9da-4cc1-b83a-a79807f006e3"
+				name="エントリー1"
+				refimgid="32f3bbca-bfeb-4236-84ee-73b77df27485"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabStandard']/list[@automationid='lstPersonList']/?/?/listitem[1]
+				</item>
+				<item
+				addcaps="button,control,nativewindow"
+				capname="button"
+				id="830a6374-1ae0-41ea-a563-c34e4a314d97"
+				name="BtnDeletePerson"
+				refimgid="c240b3ed-3fb8-431d-816b-7da461deba66"
+				refpath="/form[@automationid='RxMainFrame']/tabpagelist/tabpage[@title='Test database' and @automationid='RxTabStandard']/button[@text='Delete entry']"
+				robustPath="/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabStandard']"
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabStandard']/button[@text='Delete entry']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="8caa05b1-3df5-49e2-adda-d1c59d390c49"
+				name="Button開く"
+				refimgid="0fb17cac-6610-434c-89d4-3030a9f83a42"
+				refpath="/form[@automationid='RxMainFrame']/tabpagelist[@automationid='RxTabcontrol']/tabpage[@title='Test database' and @automationid='RxTabStandard']/combobox[@automationid='cmbDepartment']/button[@accessiblename='開く']"
+				robustPath="/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabStandard']"
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabStandard']/?/?/button[@accessiblename='開く']
+				</item>
+				<basepath>
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabStandard']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="28716b2d-211b-420a-974e-3d81610774c5"
+			name="BtnButton1"
+			refimgid="714445eb-727e-473b-a94f-7a139dd587bf"
+			refpath="/form[@automationid='RxMainFrame']/tabpagelist[@automationid='RxTabcontrol']/tabpage[@title='UI-element test area' and @automationid='RxTabUIElements']/container[@caption='Group box']/button[@text='Reset']"
+			robustPath="/form[@automationid='RxMainFrame']//button[@text='Reset']"
+			searchtimeout="30000ms">
+				/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabUIElements']/?/?/button[@text='Reset']
+			</item>
+			<folder
+			addcaps="tabpage,control,nativewindow"
+			capname="tabpage"
+			id="7c3f3d9a-4b67-40d4-b35f-134d716b2863"
+			isrooted="True"
+			name="RxTabUIElements"
+			refpath="/form[@automationid='RxMainFrame']/tabpagelist[@automationid='RxTabcontrol']/tabpage[@title='UI-element test area' and @automationid='RxTabUIElements']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,control,nativewindow"
+				capname="button"
+				id="f5111000-142d-4de6-b158-c840adc759b8"
+				name="BtnButton2"
+				refimgid="25a85d8e-0be6-46e9-ad36-f0cad3d633f2"
+				refpath="/form[@automationid='RxMainFrame']/tabpagelist[@automationid='RxTabcontrol']/tabpage[@title='UI-element test area' and @automationid='RxTabUIElements']/container[@caption='Group box']/button[@text='Shuffle']"
+				robustPath="/form[@automationid='RxMainFrame']//button[@text='Shuffle']"
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabUIElements']/?/?/button[@text='Shuffle']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="5bc1bfc1-a857-4b54-802e-f90b6a66954f"
+				name="Actions"
+				refpath="/form[@automationid='RxMainFrame']/tabpagelist[@automationid='RxTabcontrol']/tabpage[@title='UI-element test area' and @automationid='RxTabUIElements']/tree[@automationid='treTestTreeView']/tree[@accessiblename='Tree view']/treeitem[@accessiblename='Ranorex Studio fundamentals']/treeitem[@accessiblename='Actions']"
+				robustPath="/form[@automationid='RxMainFrame']//treeitem[@accessiblename='Actions']"
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabUIElements']/tree[@automationid='treTestTreeView']//treeitem[@accessiblename='Actions']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="cd773ff4-b9eb-421b-856c-aa711ba9b0c8"
+				name="RanorexRecorder"
+				refpath="/form[@automationid='RxMainFrame']/tabpagelist[@automationid='RxTabcontrol']/tabpage[@title='UI-element test area' and @automationid='RxTabUIElements']/tree[@automationid='treTestTreeView']/tree[@accessiblename='Tree view']/treeitem[@accessiblename='Ranorex Studio fundamentals']/treeitem[@accessiblename='Ranorex Recorder']"
+				robustPath="/form[@automationid='RxMainFrame']//treeitem[@accessiblename='Ranorex Recorder']"
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabUIElements']/tree[@automationid='treTestTreeView']//treeitem[@accessiblename='Ranorex Recorder']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="ac01a97a-c19f-4f03-b32a-436c918ec21e"
+				name="RanorexStudio"
+				refpath="/form[@automationid='RxMainFrame']/tabpagelist[@automationid='RxTabcontrol']/tabpage[@title='UI-element test area' and @automationid='RxTabUIElements']/tree[@automationid='treTestTreeView']/tree[@accessiblename='Tree view']/treeitem[@accessiblename='Ranorex Studio fundamentals']/treeitem[@accessiblename='Ranorex Studio']"
+				robustPath="/form[@automationid='RxMainFrame']//treeitem[@accessiblename='Ranorex Studio']"
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabUIElements']/tree[@automationid='treTestTreeView']//treeitem[@accessiblename='Ranorex Studio']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="a851d81a-42c9-4794-a8c8-779c5d0285b9"
+				name="Reporting"
+				refpath="/form[@automationid='RxMainFrame']/tabpagelist[@automationid='RxTabcontrol']/tabpage[@title='UI-element test area' and @automationid='RxTabUIElements']/tree[@automationid='treTestTreeView']/tree[@accessiblename='Tree view']/treeitem[@accessiblename='Ranorex Studio fundamentals']/treeitem[@accessiblename='Reporting']"
+				robustPath="/form[@automationid='RxMainFrame']//treeitem[@accessiblename='Reporting']"
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabUIElements']/tree[@automationid='treTestTreeView']//treeitem[@accessiblename='Reporting']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="5f75f12c-12b0-461f-a62d-d9bf311fa58c"
+				name="Repository"
+				refpath="/form[@automationid='RxMainFrame']/tabpagelist[@automationid='RxTabcontrol']/tabpage[@title='UI-element test area' and @automationid='RxTabUIElements']/tree[@automationid='treTestTreeView']/tree[@accessiblename='Tree view']/treeitem[@accessiblename='Ranorex Studio fundamentals']/treeitem[@accessiblename='Repository']"
+				robustPath="/form[@automationid='RxMainFrame']//treeitem[@accessiblename='Repository']"
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabUIElements']/tree[@automationid='treTestTreeView']//treeitem[@accessiblename='Repository']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="9399e921-6464-4c69-998d-d1cdcff99094"
+				name="TestSuite"
+				refpath="/form[@automationid='RxMainFrame']/tabpagelist[@automationid='RxTabcontrol']/tabpage[@title='UI-element test area' and @automationid='RxTabUIElements']/tree[@automationid='treTestTreeView']/tree[@accessiblename='Tree view']/treeitem[@accessiblename='Ranorex Studio fundamentals']/treeitem[@accessiblename='Test suite']"
+				robustPath="/form[@automationid='RxMainFrame']//treeitem[@accessiblename='Test suite']"
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabUIElements']/tree[@automationid='treTestTreeView']//treeitem[@accessiblename='Test suite']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="eabd5dd8-2737-4953-9bff-37f61a624a8f"
+				name="TestValidation"
+				refpath="/form[@automationid='RxMainFrame']/tabpagelist[@automationid='RxTabcontrol']/tabpage[@title='UI-element test area' and @automationid='RxTabUIElements']/tree[@automationid='treTestTreeView']/tree[@accessiblename='Tree view']/treeitem[@accessiblename='Ranorex Studio fundamentals']/treeitem[@accessiblename='Test validation']"
+				robustPath="/form[@automationid='RxMainFrame']//treeitem[@accessiblename='Test validation']"
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabUIElements']/tree[@automationid='treTestTreeView']//treeitem[@accessiblename='Test validation']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="3809686e-61b3-4936-9ad8-b6ef6bfaa5ab"
+				name="RanorizeYourselfIn20Minutes"
+				refpath="/form[@automationid='RxMainFrame']/tabpagelist[@automationid='RxTabcontrol']/tabpage[@title='UI-element test area' and @automationid='RxTabUIElements']/tree[@automationid='treTestTreeView']/tree[@accessiblename='Tree view']/treeitem[@accessiblename='Ranorex Studio fundamentals']/treeitem[@accessiblename='Ranorize yourself in 20 minutes']"
+				robustPath="/form[@automationid='RxMainFrame']//treeitem[@accessiblename>'Ranorize yourself in 20 m']"
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabUIElements']/tree[@automationid='treTestTreeView']//treeitem[@accessiblename&gt;'Ranorize yourself in 20 m']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="d693ff7a-60b9-470b-b8e9-59f7bf74b85d"
+				name="RanorexStudioFundamentals"
+				refpath="/form[@automationid='RxMainFrame']/tabpagelist[@automationid='RxTabcontrol']/tabpage[@title='UI-element test area' and @automationid='RxTabUIElements']/tree[@automationid='treTestTreeView']/tree[@accessiblename='Tree view']/treeitem[@accessiblename='Ranorex Studio fundamentals']"
+				robustPath="/form[@automationid='RxMainFrame']//treeitem[@accessiblename>'Ranorex Studio fundamenta']"
+				searchtimeout="30000ms">
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabUIElements']/tree[@automationid='treTestTreeView']/?/?/treeitem[@accessiblename&gt;'Ranorex Studio fundamenta']
+				</item>
+				<basepath>
+					/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabUIElements']
+				</basepath>
+			</folder>
+			<item
+			addcaps="picture,control,nativewindow"
+			capname="picture"
+			id="7ccadb24-87f8-4dbc-baf4-8b231a3d6b72"
+			name="RxStudioLogo"
+			refimgid="80063567-ac17-4e7e-a9b8-544884c8c0c8"
+			refpath="/form[@automationid='RxMainFrame']/tabpagelist[@automationid='RxTabcontrol']/tabpage[@title='Introduction' and @automationid='RxTabIntroduction']/picture[@automationid='RxStudioLogo']"
+			robustPath="/form[@automationid='RxMainFrame']//picture[@automationid='RxStudioLogo']"
+			searchtimeout="30000ms">
+				<image
+				guid="94273434-47bb-4b4f-b3a6-9b93e3c1c0e6"
+				name="Screenshot1">
+					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
+				</image>
+				/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabIntroduction']/picture[@automationid='RxStudioLogo']
+			</item>
+			<basepath>
+				/form[@automationid='RxMainFrame']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB9SURBVDhPY0AGwcHBi4D4NxD/x4NB8r+DgoJa
+odogACj4BqQAyiUdwDQ/YBfa+oBN6CA+DNaADmAGAAlGIGbCh8Ea0AHIACD+B8RficFQbQgAFAQa
+TjwABuI3KBMCSDEgICBAeNSAUQOwGgACIEOAEt8JYaC6H0AaaAADAwC5s5VutWbaWgAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="list,nativewindow"
+		capname="list"
+		id="80ebfae4-7f7b-4189-9f8a-97467c38b8b3"
+		isrooted="True"
+		name="List1000"
+		refpath="/list[@automationid='ListBox']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem,nativeitem,checkable"
+			capname="listitem"
+			id="7054b58c-256a-4981-bf9a-7a0a93e871dc"
+			name="ProjectManagement"
+			refimgid="dffa2c43-2faa-415b-b816-8dc9b888cba7"
+			robustPath=""
+			searchtimeout="30000ms">
+				/list[@automationid='ListBox']/listitem[@text=$Department]
+			</item>
+			<basepath>
+				/list[@automationid='ListBox']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="101d24a0-d8d4-4717-bdb7-48496572754a"
+		name="Department">
+			Project Management
+		</var>
+		<var
+		id="bb7cb25f-f20f-4a1f-a3a6-aa88aeaeaf41"
+		name="Gender">
+			Male
+		</var>
+	</variables>
+</repository>
