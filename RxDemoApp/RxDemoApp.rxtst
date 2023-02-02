@@ -117,6 +117,12 @@
 			name="teardown">
 			</teardown>
 			<testmodule
+			id="9b5e0605-1ca7-4cca-ae6c-06704e31999b"
+			name="Recording1"
+			ref="ce961707-9be9-4a94-aa7e-57bf60b82924"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="ab28850d-2841-40f1-a209-8dab85060382"
 			name="エントリーの削除"
 			ref="027bb9c0-0a68-442e-9ba5-43ee0aa4a286"
@@ -195,6 +201,10 @@
 							<testmodule
 							id="ab28850d-2841-40f1-a209-8dab85060382"
 							name="エントリーの削除">
+							</testmodule>
+							<testmodule
+							id="9b5e0605-1ca7-4cca-ae6c-06704e31999b"
+							name="Recording1">
 							</testmodule>
 						</smartfoldernode>
 						<teardown
