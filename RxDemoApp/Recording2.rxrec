@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5205fd83-d0d3-417a-bcbd-ec9a6547018f"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording2"
+	namespace="RxDemoApp">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://hotel.testplanisphere.dev/ja/index.html
+			</url>
+		</openwebsiterecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="37;25"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d2c7d922-2efc-46fb-b0d7-fe5d6cccf778"
+		sx="1128"
+		sy="302"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e6c794fb-8234-4dca-8b42-c54d1d6db3c2"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="1091,277,90,38"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						btn btn-outline-secondary my-2 my-sm-0
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						ログイン
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						btn btn-outline-secondary my-2 my-sm-0
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://hotel.testplanisphere.dev/ja/login.html
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='hotel.testplanisphere.dev']//li[#'login-holder']/a[@innertext='ログイン']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="40b3cb64-00fe-4b22-8a0c-299606bef2a5">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABsAVwDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDo6K5z
++37r/nnD/wB8n/Gj+37r/nnD/wB8n/GmB0dFc5/b91/zzh/75P8AjR/b91/zzh/75P8AjQB0dFc5
+/b91/wA84f8Avk/40f2/df8APOH/AL5P+NAHR0Vzn9v3X/POH/vk/wCNH9v3X/POH/vk/wCNAHR0
+Vzn9v3X/ADzh/wC+T/jR/b91/wA84f8Avk/40AdHRXOf2/df884f++T/AI0f2/df884f++T/AI0A
+dHRXOf2/df8APOH/AL5P+NH9v3X/ADzh/wC+T/jQB0dFc5/b91/zzh/75P8AjR/b91/zzh/75P8A
+jQB0dFc5/b91/wA84f8Avk/40f2/df8APOH/AL5P+NAHR0Vzn9v3X/POH/vk/wCNH9v3X/POH/vk
+/wCNAHR0Vzn9v3X/ADzh/wC+T/jR/b91/wA84f8Avk/40AdHRXOf2/df884f++T/AI0f2/df884f
+++T/AI0AdHRXOf2/df8APOH/AL5P+NH9v3X/ADzh/wC+T/jQB0dFc5/b91/zzh/75P8AjR/b91/z
+zh/75P8AjQB0dFc5/b91/wA84f8Avk/40f2/df8APOH/AL5P+NAHR0Vzn9v3X/POH/vk/wCNH9v3
+X/POH/vk/wCNAHR0Vzn9v3X/ADzh/wC+T/jR/b91/wA84f8Avk/40AdHRXOf2/df884f++T/AI0f
+2/df884f++T/AI0AdHRXOf2/df8APOH/AL5P+NH9v3X/ADzh/wC+T/jQB0dFc5/b91/zzh/75P8A
+jR/b91/zzh/75P8AjQB0dFc5/b91/wA84f8Avk/40f2/df8APOH/AL5P+NAHR0Vzn9v3X/POH/vk
+/wCNH9v3X/POH/vk/wCNAGXRRRQIKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKAClT7wpKVPvCplszWj/Ej6ospECoLHr6U7yV9TT0+4v0paShG2xc
+sRVUn7xH5K+po8lfU1JRT5I9ifrFX+Yj8lfU0eSvqal2tt3bTtzjOOM094JEQOy4U45z60ckew/r
+FX+Yr+SvqaPJX1NSUpVgoYqQp6HHBo5I9hfWKv8AMReSvqaPJX1NSUUckewfWKv8xH5K+pqGRdhI
+7YyKtVXuPvn/AHf8amUUlobUa1SU7N9/yK9FFFaHGFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABU0flpyHUv2JBwP05qGrMEmxCTPg4wqknAoAa5jkX95Ipf+8AefrxUsOUtx84wzHvj+oqPzQY2
+Xz5N3Y84Pt1pUnEcAXcWPOAuRj6nNAEkhLwyAODxk85/9mNJCSsakeaSB0TLAfX/AApn2gPEVJ2s
+Rg7ixH86SJoxEUkZCOozu4P4UASt8yHerg9yy7Q3pk0iqRbfKGC98pnJ9cjtTGMfklUaNS33vvfh
+QJYhAFOCe4A/z/WgCXLFGDsPmBUY3nn6GqNW2uF2BSchs7gucgcY5NVKACiiigAooooAKVPvCkpU
++8KmWzNaP8SPqi8n3F+lS24BuIwQCCwyD9aiT7i/SpIn8uVHxnaQcVUehE/iZLNMyzOqrEAGIH7p
+f8KfInmwW5/dozbstgKOD7VG8kDuzGKTLHJ/eD/CkmlV4o40QqEz1bOc/hQSSSXIVRDAFMa92UHc
+fXmn3ZkKQwYzJtyyquPcDA9KiiZRLGlvF5sznAMhwoOCegz6VXEjTASt95xk0AW4LMGYJO4Un+AH
+LH/CoZpmlcHG1V4VR/CKW1lWG4WRgSBnp9KiGM89KYEsk/mpiRAZOzjg/j60jw7IUdmwz9Fxzj1p
+weCPlEMjY6ydPy/+vUTu0jl3Ysx6k0gG1XuPvn/d/wAasVXuPvn/AHf8amexvh/4i+f5FeiiiqMA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACl
+T7wpKVTg5pS2ZpSaU4t9y8hyi/SlqkHx0LD6Gl80/wB5vzqVLyNJUk23zL+vkXKKp+af7zfnR5p/
+vN+dPm8hexX8y/H/ACNOw/5CVt/vN/6A1C6U3kxsjTRv5cPXJAZjhuD6Dt2p+hC1maMbBHc24/h4
+8wYIyR+Nb1UYnL7SjOjNuKOyZxjOCRn9KKrTzBrqdlZtplcjB/2jTPNP95vzqebyNVSTV+Zf18i5
+RVPzT/eb86PNP95vzo5vIfsV/Mvx/wAi5Ve4Pzn/AHaj80/3m/Om7hz15pSbatYunCMJczkuv5Da
+KKKs5QooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKAFR3ikWSJyjryGHark+r308RjaVUBGCUXBP41SooAQDAwKWiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA6L+wLX/npN/30P8KP7Atf+ek3/fQ/
+wrVopDMr+wLX/npN/wB9D/Cj+wLX/npN/wB9D/CtWigDK/sC1/56Tf8AfQ/wo/sC1/56Tf8AfQ/w
+rVooAyv7Atf+ek3/AH0P8KP7Atf+ek3/AH0P8K1aKAMr+wLX/npN/wB9D/Cj+wLX/npN/wB9D/Ct
+WigDK/sC1/56Tf8AfQ/wo/sC1/56Tf8AfQ/wrVooAyv7Atf+ek3/AH0P8KP7Atf+ek3/AH0P8K1a
+KAMr+wLX/npN/wB9D/Cj+wLX/npN/wB9D/CtWigDK/sC1/56Tf8AfQ/wo/sC1/56Tf8AfQ/wrVoo
+Ayv7Atf+ek3/AH0P8KP7Atf+ek3/AH0P8K1aKAMr+wLX/npN/wB9D/Cj+wLX/npN/wB9D/CtWigD
+K/sC1/56Tf8AfQ/wo/sC1/56Tf8AfQ/wrVooAyv7Atf+ek3/AH0P8KP7Atf+ek3/AH0P8K1aKAMr
++wLX/npN/wB9D/Cj+wLX/npN/wB9D/CtWigDK/sC1/56Tf8AfQ/wo/sC1/56Tf8AfQ/wrVooAyv7
+Atf+ek3/AH0P8KP7Atf+ek3/AH0P8K1aKAMr+wLX/npN/wB9D/Cj+wLX/npN/wB9D/CtWigDK/sC
+1/56Tf8AfQ/wo/sC1/56Tf8AfQ/wrVooAyv7Atf+ek3/AH0P8KP7Atf+ek3/AH0P8K1aKAMr+wLX
+/npN/wB9D/Cj+wLX/npN/wB9D/CtWigDK/sC1/56Tf8AfQ/wo/sC1/56Tf8AfQ/wrVooAyv7Atf+
+ek3/AH0P8KP7Atf+ek3/AH0P8K1aKAP/2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="c4822739-f98d-41b1-b030-a9dcd57ff2e2"
+	name="RxDemoAppRepository"
+	relativepath="RxDemoAppRepository.rxrep">
+		<codegen
+		classname="RxDemoAppRepository"
+		namespace="RxDemoApp">
+		</codegen>
+		<rootfolder
+		id="cae2f1d7-af6a-4620-bf21-798e3fa036bb"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording2.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -24,47 +24,34 @@ namespace RxDemoApp
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Recording1 recording.
+    ///The Recording2 recording.
     /// </summary>
-    [TestModule("ce961707-9be9-4a94-aa7e-57bf60b82924", ModuleType.Recording, 1)]
-    public partial class Recording1 : ITestModule
+    [TestModule("5205fd83-d0d3-417a-bcbd-ec9a6547018f", ModuleType.Recording, 1)]
+    public partial class Recording2 : ITestModule
     {
         /// <summary>
         /// Holds an instance of the RxDemoAppRepository repository.
         /// </summary>
         public static RxDemoAppRepository repo = RxDemoAppRepository.Instance;
 
-        static Recording1 instance = new Recording1();
+        static Recording2 instance = new Recording2();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Recording1()
+        public Recording2()
         {
-            aaa = "yourtext";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Recording1 Instance
+        public static Recording2 Instance
         {
             get { return instance; }
         }
 
 #region Variables
-
-        string _aaa;
-
-        /// <summary>
-        /// Gets or sets the value of variable aaa.
-        /// </summary>
-        [TestVariable("776b8dfb-dd7e-454a-8798-8a4d2973a72d")]
-        public string aaa
-        {
-            get { return _aaa; }
-            set { _aaa = value; }
-        }
 
 #endregion
 
@@ -92,7 +79,12 @@ namespace RxDemoApp
 
             Init();
 
-            Ranorex.AutomationHelpers.UserCodeCollections.FileLibrary.ValidateFilesTextEqual("", "");
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://hotel.testplanisphere.dev/ja/index.html' with browser 'Chrome' in maximized mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("https://hotel.testplanisphere.dev/ja/index.html", "Chrome", "", false, true, false, false, false, false, false, true);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HOTELPLANISPHEREテスト自動化練習サイト.ログイン' at 37;25.", repo.HOTELPLANISPHEREテスト自動化練習サイト.ログインInfo, new RecordItemIndex(1));
+            repo.HOTELPLANISPHEREテスト自動化練習サイト.ログイン.Click("37;25");
             Delay.Milliseconds(0);
             
         }

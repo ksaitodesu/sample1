@@ -38,6 +38,10 @@
 			ref="2f4875ff-5647-4766-9f20-1eba5969a411"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="4e39b8fe-7144-4aac-a9e6-0b4447f3029f"
+			name="TestCase">
+			</testcase>
 			<setup
 			id="516deee3-e56d-4e0a-805d-26ade175040d"
 			name="setup">
@@ -104,12 +108,9 @@
 				</databinding>
 			</testmodule>
 			<testcase
-			datarangeactive="True"
 			datasource="RxDemo_TestData"
 			errorbehavior="ContinueNextIteration"
 			id="7ff01380-fe40-4ee7-9090-e62ac59ee1ce"
-			maxrange="0"
-			minrange="0"
 			name="TestCase">
 			</testcase>
 			<teardown
@@ -135,6 +136,12 @@
 					variablename="NewVariable">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="e57a6daa-5a90-4811-a1d5-88fee491f156"
+			name="Recording2"
+			ref="5205fd83-d0d3-417a-bcbd-ec9a6547018f"
+			type="Recording">
 			</testmodule>
 			<testmodule
 			id="e726eb57-312c-4481-a229-acb0769ec6d1"
@@ -216,6 +223,14 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="4e39b8fe-7144-4aac-a9e6-0b4447f3029f"
+					name="TestCase">
+						<testmodule
+						id="e57a6daa-5a90-4811-a1d5-88fee491f156"
+						name="Recording2">
+						</testmodule>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -224,7 +239,7 @@
 		<DataSource
 		id="385af65f-c93d-4806-8541-76483354350b"
 		includefile="Unchecked"
-		lastknownrowcount="4"
+		lastknownrowcount="3"
 		name="NewConnector"
 		type="Ranorex.Core.Data.CsvDataConnector"
 		withheaders="True">
@@ -254,7 +269,7 @@
 		<DataSource
 		id="c0faa748-ca6d-4ef5-b005-2bd9b1571f2d"
 		includefile="Unchecked"
-		lastknownrowcount="4"
+		lastknownrowcount="3"
 		name="RxDemo_TestData"
 		type="Ranorex.Core.Data.CsvDataConnector"
 		withheaders="True">
@@ -290,13 +305,10 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="0d214ded-555b-49e9-b70b-a202956962dd">
+			id="4e39b8fe-7144-4aac-a9e6-0b4447f3029f">
 			</testcontainer>
 			<testcontainer
 			id="6847814e-2355-4647-b9b3-6dec7a99f352">
-			</testcontainer>
-			<testcontainer
-			id="7ff01380-fe40-4ee7-9090-e62ac59ee1ce">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

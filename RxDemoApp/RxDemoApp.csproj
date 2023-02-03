@@ -97,17 +97,17 @@
     <Compile Include="Program.cs">
       <id>96c872cf-4d6b-4a2a-a0a2-831626b1bb8f</id>
     </Compile>
-    <Compile Include="Recording1.cs">
-      <BoundTo>a32208b1-6fa7-4430-a275-c014809e4ec6</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
+    <Compile Include="Recording2.cs">
+      <BoundTo>00fd91a1-a465-405a-8de4-d05c3046b6d6</BoundTo>
+      <DependentUpon>Recording2.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>5640b5b8-3ccd-4c3e-8542-7daeebfc64cf</id>
+      <id>2c74f3f5-14be-4edd-9cfc-8bb0fb5f3505</id>
     </Compile>
-    <Compile Include="Recording1.UserCode.cs">
-      <BoundTo>a32208b1-6fa7-4430-a275-c014809e4ec6</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
+    <Compile Include="Recording2.UserCode.cs">
+      <BoundTo>00fd91a1-a465-405a-8de4-d05c3046b6d6</BoundTo>
+      <DependentUpon>Recording2.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>37b80491-d350-4b94-933c-72bbbd094ca2</id>
+      <id>bcaa261a-7f58-4fa6-94d7-c9bc99e5f429</id>
     </Compile>
     <Compile Include="UserCodeCollection1.cs">
       <id>d9dacf70-10eb-4ea6-a525-33b4816f8b7a</id>
@@ -188,10 +188,10 @@
       <id>e33d37c3-175a-4992-ad07-bec6076b756f</id>
       <recordtableid>7edfe23d-4e38-45a3-8e1e-ad54132c336b</recordtableid>
     </None>
-    <None Include="Recording1.rxrec">
+    <None Include="Recording2.rxrec">
       <BoundTo>8190d3fb-ed33-4093-8882-977c11e3af7c</BoundTo>
-      <id>a32208b1-6fa7-4430-a275-c014809e4ec6</id>
-      <recordtableid>ce961707-9be9-4a94-aa7e-57bf60b82924</recordtableid>
+      <id>00fd91a1-a465-405a-8de4-d05c3046b6d6</id>
+      <recordtableid>5205fd83-d0d3-417a-bcbd-ec9a6547018f</recordtableid>
     </None>
     <None Include="エントリーの削除.rxrec">
       <BoundTo>8190d3fb-ed33-4093-8882-977c11e3af7c</BoundTo>

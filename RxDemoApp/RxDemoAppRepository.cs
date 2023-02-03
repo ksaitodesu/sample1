@@ -29,6 +29,7 @@ namespace RxDemoApp
         static RxDemoAppRepository instance = new RxDemoAppRepository();
         RxDemoAppRepositoryFolders.RxMainFrameAppFolder _rxmainframe;
         RxDemoAppRepositoryFolders.List1000AppFolder _list1000;
+        RxDemoAppRepositoryFolders.HOTELPLANISPHEREテスト自動化練習サイトAppFolder _hotelplanisphereテスト自動化練習サイト;
 
         /// <summary>
         /// Gets the singleton class instance representing the RxDemoAppRepository element repository.
@@ -47,6 +48,7 @@ namespace RxDemoApp
         {
             _rxmainframe = new RxDemoAppRepositoryFolders.RxMainFrameAppFolder(this);
             _list1000 = new RxDemoAppRepositoryFolders.List1000AppFolder(this);
+            _hotelplanisphereテスト自動化練習サイト = new RxDemoAppRepositoryFolders.HOTELPLANISPHEREテスト自動化練習サイトAppFolder(this);
         }
 
 #region Variables
@@ -105,6 +107,15 @@ namespace RxDemoApp
         public virtual RxDemoAppRepositoryFolders.List1000AppFolder List1000
         {
             get { return _list1000; }
+        }
+
+        /// <summary>
+        /// The HOTELPLANISPHEREテスト自動化練習サイト folder.
+        /// </summary>
+        [RepositoryFolder("4d922682-9c74-4854-9202-ba8b7a7a2aa3")]
+        public virtual RxDemoAppRepositoryFolders.HOTELPLANISPHEREテスト自動化練習サイトAppFolder HOTELPLANISPHEREテスト自動化練習サイト
+        {
+            get { return _hotelplanisphereテスト自動化練習サイト; }
         }
     }
 
@@ -977,6 +988,72 @@ namespace RxDemoApp
                 get
                 {
                     return _projectmanagementInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The HOTELPLANISPHEREテスト自動化練習サイトAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("4d922682-9c74-4854-9202-ba8b7a7a2aa3")]
+        public partial class HOTELPLANISPHEREテスト自動化練習サイトAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _ログインInfo;
+
+            /// <summary>
+            /// Creates a new HOTELPLANISPHEREテスト自動化練習サイト  folder.
+            /// </summary>
+            public HOTELPLANISPHEREテスト自動化練習サイトAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("HOTELPLANISPHEREテスト自動化練習サイト", "/dom[@domain='hotel.testplanisphere.dev']", parentFolder, 30000, null, false, "4d922682-9c74-4854-9202-ba8b7a7a2aa3", "")
+            {
+                _ログインInfo = new RepoItemInfo(this, "ログイン", ".//li[#'login-holder']/a[@innertext='ログイン']", ".//li[#'login-holder']/a[@innertext='ログイン']", 30000, null, "e6c794fb-8234-4dca-8b42-c54d1d6db3c2");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("4d922682-9c74-4854-9202-ba8b7a7a2aa3")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("4d922682-9c74-4854-9202-ba8b7a7a2aa3")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ログイン item.
+            /// </summary>
+            [RepositoryItem("e6c794fb-8234-4dca-8b42-c54d1d6db3c2")]
+            public virtual Ranorex.ATag ログイン
+            {
+                get
+                {
+                    return _ログインInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ログイン item info.
+            /// </summary>
+            [RepositoryItemInfo("e6c794fb-8234-4dca-8b42-c54d1d6db3c2")]
+            public virtual RepoItemInfo ログインInfo
+            {
+                get
+                {
+                    return _ログインInfo;
                 }
             }
         }
